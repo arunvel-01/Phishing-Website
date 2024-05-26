@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: phishing-website
+    env: python
+    buildCommand: "poetry install"
+    startCommand: "poetry run python app.py"
